@@ -1,0 +1,160 @@
+
+.auth-pagina {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 20px;
+  background: linear-gradient(135deg, #e9f8ef, #f8fbf9);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 490px;
+  background: #fff;
+  border: 1px solid #e5eee8;
+  border-radius: 20px;
+  padding: 38px;
+  box-shadow: 0 15px 45px rgba(20, 80, 50, 0.08);
+}
+
+.auth-icone {
+  width: 65px;
+  height: 65px;
+  border-radius: 18px;
+  background: #e0f5e9;
+  color: #138e68;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.auth-card h1 {
+  text-align: center;
+  color: #163f32;
+  font-size: 28px;
+  margin: 0 0 8px;
+}
+
+.auth-descricao {
+  text-align: center;
+  color: #77857c;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-card label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #294b3c;
+  margin-bottom: 8px;
+}
+
+.auth-campo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  border: 1px solid #dce7df;
+  border-radius: 10px;
+  padding: 0 14px;
+  margin-bottom: 20px;
+  color: #82968b;
+}
+
+.auth-campo:focus-within {
+  border-color: #138e68;
+  box-shadow: 0 0 0 3px rgba(19, 142, 104, 0.1);
+}
+
+.auth-campo input {
+  width: 100%;
+  min-width: 0;
+  padding: 14px 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #263b30;
+  font-size: 14px;
+}
+
+.auth-mostrar-senha {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: transparent;
+  color: #718579;
+  padding: 5px;
+}
+
+.auth-botao {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: #138e68;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 5px;
+}
+
+.auth-botao:hover {
+  background: #0d7555;
+}
+
+.auth-erro {
+  background: #fff0f0;
+  color: #b42318;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.auth-dica {
+  font-size: 11px;
+  color: #7b8a80;
+  margin: -12px 0 18px;
+  line-height: 1.5;
+}
+
+.auth-rodape {
+  text-align: center;
+  font-size: 13px;
+  color: #718579;
+  margin-top: 25px;
+}
+
+.auth-rodape a,
+.auth-voltar {
+  color: #138e68;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.auth-voltar {
+  display: block;
+  text-align: center;
+  margin-top: 17px;
+  font-size: 13px;
+}
+
+@media (max-width: 520px) {
+  .auth-pagina {
+    padding: 25px 12px;
+  }
+
+  .auth-card {
+    padding: 28px 20px;
+  }
+
+  .auth-card h1 {
+    font-size: 24px;
+  }
+}
